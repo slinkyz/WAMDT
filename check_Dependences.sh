@@ -14,7 +14,7 @@ echo "slinkyz/WAMDT -REPOSITORY-	https://github.com/slinkyz/WAMDT"
 
 
 # Lista de paquetes a verificar e instalar si es necesario
-packages=("aircrack-ng" "pixiewps" "iw" "procps" "iproute2" "curl" "bully" "reaver" "mdk4" "mdk3")
+packages=("aircrack-ng" "pixiewps" "iw" "procps" "iproute2" "curl" "bully" "node.js" "reaver" "mdk4" "mdk3")
 missing_packages=()
 
 # Verificar si los paquetes están instalados
