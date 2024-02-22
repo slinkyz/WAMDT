@@ -1,3 +1,2 @@
-# <em> Wifi Attack Multi Deauther Tool </em>
-this tool is on the process of being created just for the proof of concept
-i want to create a multi wifi deauther tool with just one wifi card
+# <h1 align="center">Wifi Attack Multi Deauther Tool </h1>
+<em align="center">this tool is on the process of being created just for the proof of concept i want to create a multi wifi deauther tool with just one wifi card</em>
