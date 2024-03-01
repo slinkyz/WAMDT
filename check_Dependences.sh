@@ -6,15 +6,22 @@ if [ "$(id -u)" != "0" ]; then
     exit 1
 fi
 
+
+# Mensaje de bienvenida con enlace al repositorio de GitHub
+echo "Soy slinkyz. Gracias por descargar mi herramienta"
+echo "Espero te funcione y para fines practicos te sea de utilidad."
+echo "Para más información y actualizaciones, visita nuestro repositorio en GitHub:"
+echo "https://github.com/slinkyz/WAMDT"
+echo "No me hago responsable de malos usos de la herramienta"
+sleep 5
+clear
+echo "Iniciando el programa..."
+
 # Actualizar el índice de paquetes
 apt-get update
 
-
-echo "slinkyz/WAMDT -REPOSITORY-	https://github.com/slinkyz/WAMDT"
-
-
 # Lista de paquetes a verificar e instalar si es necesario
-packages=("aircrack-ng" "pixiewps" "iw" "procps" "iproute2" "curl" "bully" "node.js" "reaver" "mdk4" "mdk3")
+packages=("aircrack-ng" "pixiewps" "iw" "procps" "iproute2" "curl" "php" "php-cli" "bully" "node.js" "reaver" "mdk4" "mdk3")
 missing_packages=()
 
 # Verificar si los paquetes están instalados
@@ -34,3 +41,4 @@ else
         apt-get install -y "$missing_package"
     done
 fi
+
